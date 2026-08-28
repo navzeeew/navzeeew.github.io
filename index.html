@@ -18,29 +18,37 @@
   <main class="container">
     <section class="about">
       <h2>Course Portfolio</h2>
-      <p>Welcome to my repository for Application Development and Emerging Technologies. This portfolio documents my hands-on laboratory exercises, modern framework explorations, web applications, and emerging technology solutions developed throughout the semester.</p>
+      <p>Welcome to my repository for Application Development and Emerging Technologies. This portfolio serves as a submission hub for my quizzes, laboratory activities, and course projects.</p>
     </section>
 
     <section class="projects">
-      <h2>Projects</h2>
+      <h2>Projects & Submissions</h2>
       <div class="project-card">
-        <h3>Classwork & Course Materials</h3>
-        <p>Access all uploaded quizzes, laboratory exercises, and activity submissions for this course below:</p>
-        
-        <ul class="activity-list">
-          <li>
-            <span>Quiz 1 - Fundamental Concepts</span>
-            <a href="files/quiz1.pdf" target="_blank" class="file-link">View File</a>
-          </li>
-          <li>
-            <span>Activity 1 - HTML & CSS Basics</span>
-            <a href="files/activity1.html" target="_blank" class="file-link">View File</a>
-          </li>
-          <li>
-            <span>Activity 2 - Emerging Tech Research</span>
-            <a href="files/activity2.pdf" target="_blank" class="file-link">View File</a>
-          </li>
-        </ul>
+        <h3>Submit Classwork</h3>
+        <p>Use the layout below to attach and upload your quiz or activity files:</p>
+
+        <form class="upload-form">
+          <div class="form-group">
+            <label for="submission-title">Title / Item Name</label>
+            <input type="text" id="submission-title" placeholder="e.g., Quiz 1 - Intro to App Dev" required>
+          </div>
+
+          <div class="form-group">
+            <label for="submission-type">Category</label>
+            <select id="submission-type">
+              <option value="quiz">Quiz</option>
+              <option value="activity">Activity</option>
+              <option value="exam">Exam / Major Project</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="file-upload">Attach File</label>
+            <input type="file" id="file-upload" required>
+          </div>
+
+          <button type="button" class="btn">Submit File</button>
+        </form>
       </div>
     </section>
   </main>
