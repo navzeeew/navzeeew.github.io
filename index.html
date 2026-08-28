@@ -1,63 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vince Ivan B. Genido | App Dev Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Friend's Name | Student Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <header>
-    <div class="container">
-      <h1>Vince Ivan B. Genido</h1>
-      <p>3rd Year BS Computer Science | Application Development & Emerging Technologies</p>
-    </div>
-  </header>
+    <!-- NAVIGATION -->
+    <header>
+        <div class="logo">Student Portfolio</div>
 
-  <main class="container">
-    <section class="about">
-      <h2>Course Portfolio</h2>
-      <p>Welcome to my repository for Application Development and Emerging Technologies. This portfolio serves as a submission hub for my quizzes, laboratory activities, and course projects.</p>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">School Works</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- HOME -->
+    <section id="home" class="home">
+
+        <div class="home-text">
+
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>
+                Hello, I'm <span>Friend's Name</span>
+            </h1>
+
+            <p class="description">
+                A Computer Science student documenting my
+                school activities, quizzes, projects, and
+                programming journey.
+            </p>
+
+            <a href="#projects" class="main-button">
+                Explore My Work
+            </a>
+
+        </div>
+
+        <div class="home-card">
+            <div class="circle">👨‍💻</div>
+            <h2>Computer Science Student</h2>
+            <p>Learning • Creating • Improving</p>
+        </div>
+
     </section>
 
-    <section class="projects">
-      <h2>Projects & Submissions</h2>
-      <div class="project-card">
-        <h3>Submit Classwork</h3>
-        <p>Use the layout below to attach and upload your quiz or activity files:</p>
 
-        <form class="upload-form">
-          <div class="form-group">
-            <label for="submission-title">Title / Item Name</label>
-            <input type="text" id="submission-title" placeholder="e.g., Quiz 1 - Intro to App Dev" required>
-          </div>
+    <!-- ABOUT -->
+    <section id="about" class="about">
 
-          <div class="form-group">
-            <label for="submission-type">Category</label>
-            <select id="submission-type">
-              <option value="quiz">Quiz</option>
-              <option value="activity">Activity</option>
-              <option value="exam">Exam / Major Project</option>
-            </select>
-          </div>
+        <div class="section-title">
+            <p>GET TO KNOW ME</p>
+            <h2>About Me</h2>
+        </div>
 
-          <div class="form-group">
-            <label for="file-upload">Attach File</label>
-            <input type="file" id="file-upload" required>
-          </div>
+        <div class="about-box">
 
-          <button type="button" class="btn">Submit File</button>
-        </form>
-      </div>
+            <p>
+                Hello! I'm Friend's Name, a Computer Science student
+                interested in technology, programming, and software
+                development.
+            </p>
+
+            <p>
+                This website serves as my digital school portfolio
+                where I showcase my activities, quizzes, projects,
+                and other academic works throughout my studies.
+            </p>
+
+        </div>
+
     </section>
-  </main>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2026 Vince Ivan B. Genido | App Dev & Emerging Tech Portfolio</p>
-    </div>
-  </footer>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills-section">
+
+        <div class="section-title">
+            <p>WHAT I'M LEARNING</p>
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skill-container">
+
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h3>HTML</h3>
+                <p>Creating the structure of websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <h3>CSS</h3>
+                <p>Designing and styling web pages.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">☕</div>
+                <h3>Java</h3>
+                <p>Learning object-oriented programming.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h3>C++</h3>
+                <p>Developing programming and problem-solving skills.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">⚡</div>
+                <h3>JavaScript</h3>
+                <p>Adding functionality and interaction to websites.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SCHOOL WORKS -->
+    <section id="projects" class="projects-section">
+
+        <div class="section-title">
+            <p>MY ACADEMIC WORK</p>
+            <h2>School Works</h2>
+        </div>
+
+        <div class="project-container">
+
+            <!-- WORK 1 -->
+            <div class="project-card">
+
+                <div class="project-number">01</div>
+
+                <h3>Quiz 1</h3>
+
+                <p>
+                    A quiz activity completed as part of my
+                    programming coursework.
+                </p>
+
+                <a href="quiz1.html" class="project-button">
+                    View Work →
+                </a>
+
+            </div>
+
+
+            <!-- WORK 2 -->
+            <div class="project-card">
+
+                <div class="project-number">02</div>
+
+                <h3>Activity 1</h3>
+
+                <p>
+                    A school activity demonstrating the concepts
+                    and skills learned in class.
+                </p>
+
+                <a href="#" class="project-button">
+                    View Work →
+                </a>
+
+            </div>
+
+
+            <!-- WORK 3 -->
+            <div class="project-card">
+
+                <div class="project-number">03</div>
+
+                <h3>My Project</h3>
+
+                <p>
+                    A larger school project that I worked on
+                    during the semester.
+                </p>
+
+                <a href="#" class="project-button">
+                    View Work →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+
+        <div class="section-title">
+            <p>GET IN TOUCH</p>
+            <h2>Contact Me</h2>
+        </div>
+
+        <p>
+            Want to see more of my work or get in touch?
+        </p>
+
+        <a
+            href="https://facebook.com/"
+            class="main-button">
+            Visit My Facebook
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h3>Student Portfolio</h3>
+
+        <p>
+            Built for showcasing my academic journey.
+        </p>
+
+        <p class="copyright">
+            © 2026 Friend's Name. All rights reserved.
+        </p>
+
+    </footer>
 
 </body>
 </html>
