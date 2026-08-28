@@ -1,417 +1,60 @@
 <!DOCTYPE html>
-<html lang="tl">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Portfolio - About Me</title>
-    <style>
-        /* Base Styles */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #1a1a1a;
-            line-height: 1.6;
-        }
-
-        /* Navigation Bar */
-        nav {
-            background-color: #111111;
-            padding: 15px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            border-bottom: 3px solid #dc3545;
-        }
-        nav .logo {
-            color: #ffffff;
-            font-size: 1.3em;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        nav .logo span {
-            color: #dc3545;
-        }
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-        nav ul li {
-            margin-left: 20px;
-        }
-        nav ul li a {
-            color: #cccccc;
-            text-decoration: none;
-            font-size: 1em;
-            transition: color 0.3s ease;
-        }
-        nav ul li a:hover, nav ul li a.active {
-            color: #dc3545;
-            font-weight: bold;
-        }
-
-        /* Hero Section */
-        header {
-            background-color: #1a1a1a;
-            color: #ffffff;
-            text-align: center;
-            padding: 60px 20px;
-            border-bottom: 5px solid #333333;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 3em;
-        }
-        header h1 span {
-            color: #dc3545;
-        }
-        header p {
-            font-size: 1.2em;
-            color: #aaaaaa;
-            margin-top: 10px;
-        }
-
-        /* Main Content Container */
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 0 20px;
-            margin-bottom: 100px;
-        }
-
-        /* Sections */
-        section {
-            background: #ffffff;
-            padding: 30px;
-            margin-bottom: 30px;
-            border-radius: 6px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-            border-left: 5px solid #dc3545;
-        }
-        h2 {
-            color: #111111;
-            margin-top: 0;
-            font-size: 1.8em;
-            text-transform: uppercase;
-        }
-
-        /* Skills Tags */
-        .skills-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            padding: 0;
-            list-style: none;
-        }
-        .skills-grid li {
-            background-color: #333333;
-            color: #ffffff;
-            padding: 8px 16px;
-            border-radius: 4px;
-            font-size: 0.9em;
-        }
-
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #111111;
-            color: #aaaaaa;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-            left: 0;
-            font-size: 0.9em;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vince Ivan B. Genido | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navigation -->
-    <nav>
-        <div class="logo">My<span>Portfolio</span></div>
-        <ul>
-            <li><a href="index.html" class="active">About Me</a></li>
-            <li><a href="activities.html">Activities</a></li>
-        </ul>
-    </nav>
-
-    <!-- Hero Section -->
-    <header>
-        <h1>Vince Ivan Genido <span> (Vinz)</span></h1>
-        <p>Computer Science Student</p>
-    </header>
-
+  <header>
     <div class="container">
-        <!-- About Section -->
-        <section>
-            <h2>About Me</h2>
-            <p> My Name is Vince Ivan Genido. I am a Computer Science student with a passion for creating innovative web applications.</p>
-        </section>
-
-        <!-- Skills Section -->
-        <section>
-            <h2>Skills</h2>
-            <ul class="skills-grid">
-                <li>HTML & CSS</li>
-                <li>JavaScript (Basics)</li>
-                <li>Problem Solving</li>
-                <li>Team Collaboration</li>
-            </ul>
-        </section>
+      <h1>Vince Ivan B. Genido</h1>
+      <p>3rd Year BS Computer Science Student</p>
     </div>
+  </header>
 
-    <footer>
-        <p>&copy; 2026 Vince Ivan Genido. All rights reserved.</p>
-    </footer>
+  <main class="container">
+    <section class="about">
+      <h2>About Me</h2>
+      <p>Welcome to my academic portfolio. I am currently in my third year of pursuing a Bachelor of Science in Computer Science. This repository serves as a showcase of my coursework, lab experiments, systems architecture projects, and programming achievements.</p>
+    </section>
 
-</body>
-</html>
+    <section class="projects">
+      <h2>Academic Projects</h2>
+      <div class="project-grid">
 
-<!DOCTYPE html>
-<html lang="tl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Portfolio - Mga Aktibidad</title>
-    <style>
-        /* Gagamit ng parehong base styles para sa consistency */
-       body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #1a1a1a;
-            line-height: 1.6;
-        }
+        <article class="project-card">
+          <h3>Systems Integration Project</h3>
+          <span class="tag">Architecture / APIs</span>
+          <p>Implementation details for secure record management, API lifecycle tracking, and clinical report templates.</p>
+          <a href="#" class="btn">View Details</a>
+        </article>
 
-        /* Navigation Bar */
-        nav {
-            background-color: #111111;
-            padding: 15px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            border-bottom: 3px solid #dc3545;
-        }
-        nav .logo {
-            color: #ffffff;
-            font-size: 1.3em;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        nav .logo span {
-            color: #dc3545;
-        }
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-        nav ul li {
-            margin-left: 20px;
-        }
-        nav ul li a {
-            color: #cccccc;
-            text-decoration: none;
-            font-size: 1em;
-            transition: color 0.3s ease;
-        }
-        nav ul li a:hover, nav ul li a.active {
-            color: #dc3545;
-            font-weight: bold;
-        }
+        <article class="project-card">
+          <h3>Hardware & 3D Workstation Spec</h3>
+          <span class="tag">Hardware / Systems</span>
+          <p>Custom computer system specification and component design optimized for 3D animation workloads.</p>
+          <a href="#" class="btn">View Details</a>
+        </article>
 
-        /* Container */
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
-            margin-bottom: 100px;
-        }
+        <article class="project-card">
+          <h3>C++ Data Structures & Logic</h3>
+          <span class="tag">C++ / Algorithms</span>
+          <p>A collection of algorithmic solutions focusing on array manipulation, limits, and mathematical logic.</p>
+          <a href="#" class="btn">View Code</a>
+        </article>
 
-        /* Title Card */
-        .page-title {
-            background-color: #1a1a1a;
-            color: white;
-            padding: 20px;
-            border-radius: 6px;
-            margin-bottom: 30px;
-            border-left: 5px solid #dc3545;
-        }
-        .page-title h1 {
-            margin: 0;
-            font-size: 2em;
-        }
+      </div>
+    </section>
+  </main>
 
-        /* Form & List Sections */
-        section {
-            background: #ffffff;
-            padding: 30px;
-            margin-bottom: 30px;
-            border-radius: 6px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-        }
-        h2 {
-            color: #111111;
-            margin-top: 0;
-            border-bottom: 2px solid #e0e0e0;
-            padding-bottom: 10px;
-        }
-
-        /* Form Controls */
-        .form-group {
-            margin-bottom: 20px;
-        }
-        .form-group label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-            color: #333333;
-        }
-        .form-group input, .form-group select, .form-group textarea {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            background-color: #ffffff;
-        }
-        .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
-            border-color: #dc3545;
-            outline: none;
-        }
-
-        /* Submit Button */
-        .btn-submit {
-            background-color: #dc3545;
-            color: white;
-            border: none;
-            padding: 12px 20px;
-            font-size: 1em;
-            font-weight: bold;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        .btn-submit:hover {
-            background-color: #111111;
-        }
-
-        /* Activity Table/List */
-        .activity-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 0;
-            border-bottom: 1px solid #eeeeee;
-        }
-        .activity-item:last-child {
-            border-bottom: none;
-        }
-        .status-badge {
-            background-color: #28a745; /* Green para sa Submitted */
-            color: white;
-            padding: 4px 10px;
-            border-radius: 12px;
-            font-size: 0.85em;
-        }
-
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #111111;
-            color: #aaaaaa;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-            left: 0;
-            font-size: 0.9em;
-        }
-    </style>
-</head>
-<body>
-
-    <!-- Navigation -->
-    <nav>
-        <div class="logo">My<span>Portfolio</span></div>
-        <ul>
-            <li><a href="index.html">About Me</a></li>
-            <li><a href="activities.html" class="active">Activities</a></li>
-        </ul>
-    </nav>
-
+  <footer>
     <div class="container">
-        <!-- Page Title -->
-        <div class="page-title">
-            <h1>Activity Submissions</h1>
-        </div>
-
-        <!-- Submission Form Section -->
-        <section>
-            <h2>Submit Activity</h2>
-            <form action="#" method="POST" enctype="multipart/form-data">
-                <div class="form-group">
-                    <label for="act-name">Activity Name</label>
-                    <input type="text" id="act-name" placeholder="Example: Activity 1 - HTML Basics" required>
-                </div>
-                <div class="form-group">
-                    <label for="subject">Subject</label>
-                    <select id="subject" required>
-                        <option value="">For What Activity</option>
-                        <option value="quiz"> Quiz/Long Quiz</option>
-                        <option value="act"> Activity</option>
-                        
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="file-upload">Upload File (ZIP, PDF, or Image)</label>
-                    <input type="file" id="file-upload" required>
-                </div>
-                <div class="form-group">
-                    <label for="notes">Additional Message (Notes)</label>
-                    <textarea id="notes" rows="4" placeholder="Write here any additional details about your submission..."></textarea>
-                </div>
-                <button type="submit" class="btn-submit">Submit Activity</button>
-            </form>
-        </section>
-
-        <!-- Past Submissions Section -->
-        <section>
-            <h2>Past Submissions</h2>
-            <div class="activity-item">
-                <div>
-                    <strong></strong><br>
-                    
-                </div>
-                <span class="status-badge"></span>
-            </div>
-            <div class="activity-item">
-                <div>
-                    <strong></strong><br>
-                    
-                </div>
-                <span class="status-badge"></span>
-            </div>
-        </section>
+      <p>&copy; 2026 Vince Ivan B. Genido | Hosted on GitHub Pages</p>
     </div>
-
-    <footer>
-        <p>&copy; Vince Ivan B. Genido.</p>
-    </footer>
+  </footer>
 
 </body>
 </html>
