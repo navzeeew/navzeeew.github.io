@@ -402,5 +402,49 @@ footer p {
         width: 100%;
         max-width: 350px;
     }
+    /* =========================
+   QUIZ PAGE
+========================= */
 
+.quiz-page {
+    min-height: 90vh;
+    background: #f8fafc;
+}
+
+.quiz-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    max-width: 1100px;
+    margin-bottom: 40px;
+}
+
+.quiz-image-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.quiz-image-card h2 {
+    margin-bottom: 15px;
+    color: #7c3aed;
+}
+
+.quiz-image-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .quiz-images {
+        grid-template-columns: 1fr;
+    }
 }
