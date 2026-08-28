@@ -157,3 +157,58 @@ footer {
 .file-link:hover {
   text-decoration: underline;
 }
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+.form-group input[type="text"],
+.form-group select {
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.form-group input[type="file"] {
+  background-color: var(--bg-color);
+  border: 1px dashed var(--border-color);
+  color: var(--text-muted);
+  padding: 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form-group input[type="file"]::-webkit-file-upload-button {
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 0.75rem;
+}
+
+button.btn {
+  border: none;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  width: 100%;
+}
