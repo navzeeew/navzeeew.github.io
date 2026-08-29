@@ -25,20 +25,20 @@ header {
 
     padding: 20px 8%;
 
-    background: white;
+    background: black;
 
     position: sticky;
     top: 0;
 
     z-index: 1000;
 
-    border-bottom: 1px solid #e2e8f0;
+    border-bottom: 1px solid white;  ;
 }
 
 .logo {
     font-size: 22px;
     font-weight: bold;
-    color: #7c3aed;
+    color: red;
 }
 
 nav {
@@ -48,12 +48,12 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #475569;
+    color: gray;
     font-weight: 500;
 }
 
 nav a:hover {
-    color: #7c3aed;
+    color: red;
 }
 
 
@@ -75,7 +75,7 @@ nav a:hover {
 }
 
 .welcome {
-    color: #7c3aed;
+    color: red;
     font-weight: bold;
     letter-spacing: 2px;
     margin-bottom: 15px;
@@ -88,12 +88,12 @@ nav a:hover {
 }
 
 .home h1 span {
-    color: #7c3aed;
+    color: red;
 }
 
 .description {
     font-size: 19px;
-    color: #64748b;
+    color: gray;
     max-width: 600px;
 }
 
@@ -104,8 +104,8 @@ nav a:hover {
 
     padding: 13px 25px;
 
-    background: #7c3aed;
-    color: white;
+    background: red;
+    color: black;
 
     text-decoration: none;
 
@@ -115,46 +115,47 @@ nav a:hover {
 }
 
 .main-button:hover {
-    background: #6d28d9;
+    background: red;
 }
+
+
 
 
 
 
 .home-card {
-    background: white;
-
+    background:  lightgray;
     padding: 45px;
-
     border-radius: 20px;
-
     text-align: center;
-
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-
+    box-shadow: 0 10px 30px  #1E293B;
     min-width: 280px;
 }
 
 .circle {
-    width: 130px;
-    height: 130px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin: auto;
-    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
 
     border-radius: 50%;
+    overflow: hidden;
 
-    background: #ede9fe;
-
-    font-size: 55px;
+    border: 3px solid red;
 }
 
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+    display: block;
+}
+
+
+
 .home-card p {
-    color: #64748b;
+    color: gray;
 }
 
 
@@ -169,7 +170,7 @@ section {
 }
 
 .section-title p {
-    color: #7c3aed;
+    color: red;
     font-weight: bold;
     letter-spacing: 2px;
     font-size: 14px;
@@ -182,26 +183,28 @@ section {
 
 
 
+
 .about {
-    background: white;
+    background: black   ;
 }
 
 .about-box {
     max-width: 850px;
 
-    background: #f8fafc;
+    background: black;
 
     padding: 35px;
 
-    border-left: 5px solid #7c3aed;
+    border-left: 5px solid red;
 
     border-radius: 10px;
 }
 
 .about-box p {
     margin-bottom: 15px;
-    color: #475569;
+    color: gray ;
 }
+
 
 
 
@@ -221,7 +224,7 @@ section {
 
     border-radius: 15px;
 
-    border: 1px solid #e2e8f0;
+    border: 1px solid black;
 
     transition: 0.3s;
 }
@@ -244,15 +247,14 @@ section {
 }
 
 .skill-card p {
-    color: #64748b;
+    color: gray ;
     font-size: 14px;
 }
 
 
 
-
 .projects-section {
-    background: #f1f5f9;
+    background: black   ;
 }
 
 .project-container {
@@ -265,7 +267,7 @@ section {
 }
 
 .project-card {
-    background: white;
+    background: whitesmoke;   ;
 
     padding: 30px;
 
@@ -273,7 +275,7 @@ section {
 
     position: relative;
 
-    border: 1px solid #e2e8f0;
+    border: 1px  #1E293B ;
 }
 
 .project-number {
@@ -281,7 +283,7 @@ section {
 
     font-weight: bold;
 
-    color: #ede9fe;
+    color:  #1E293B;
 
     margin-bottom: 10px;
 }
@@ -293,7 +295,7 @@ section {
 }
 
 .project-card p {
-    color: #64748b;
+    color: gray ;
 
     margin-bottom: 20px;
 }
@@ -301,13 +303,13 @@ section {
 .project-button {
     text-decoration: none;
 
-    color: #7c3aed;
+    color: red;
 
     font-weight: bold;
 }
 
 .project-button:hover {
-    color: #6d28d9;
+    color: red;
 }
 
 
@@ -316,13 +318,12 @@ section {
 .contact {
     text-align: center;
 
-    background: white;
+    background: whitesmoke;
 }
 
 .contact p {
-    color: #64748b;
+    color: gray ;
 }
-
 
 
 
@@ -331,13 +332,13 @@ footer {
 
     padding: 45px 20px;
 
-    background: #1e293b;
+    background: black;
 
     color: white;
 }
 
 footer p {
-    color: #94a3b8;
+    color: gray ;
 }
 
 .copyright {
@@ -345,6 +346,7 @@ footer p {
 
     font-size: 13px;
 }
+
 
 
 
@@ -385,7 +387,7 @@ footer p {
 
 .quiz-page {
     min-height: 90vh;
-    background: #f8fafc;
+    background: black;
 }
 
 .quiz-images {
@@ -397,16 +399,16 @@ footer p {
 }
 
 .quiz-image-card {
-    background: white;
+    background: black;
     padding: 20px;
     border-radius: 15px;
-    border: 1px solid #e2e8f0;
+    border: 1px solid black;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
 }
 
 .quiz-image-card h2 {
     margin-bottom: 15px;
-    color: #7c3aed;
+    color: gray    ;
 }
 
 .quiz-image-card img {
@@ -424,4 +426,5 @@ footer p {
     .quiz-images {
         grid-template-columns: 1fr;
     }
+} 
 }
