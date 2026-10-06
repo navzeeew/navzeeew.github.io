@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Exams | Student Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+
+        <div class="logo">
+            Student Portfolio
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#skills">Skills</a>
+            <a href="index.html#projects">School Works</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Exams -->
+    <section class="exams-page">
+
+        <div class="section-title">
+
+            <p>ACADEMIC WORK</p>
+
+            <h1>Exams</h1>
+
+            <p>
+                These are my Exams.
+            </p>
+
+        </div>
+
+
+        <div class="exam-images">
+
+            <div class="exam-image-card">
+
+                <h2>Exam</h2>
+
+                <img
+                    src="midterm_exam.jpg"
+                    alt="Midterm Exam"
+                >
+
+            </div>
+
+        </div>
+
+
+        <a href="index.html#projects" class="main-button">
+            ← Back to School Works
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h3>Student Portfolio</h3>
+
+        <p>
+            Built for showcasing my academic journey.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
